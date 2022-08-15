@@ -53,27 +53,26 @@ nav{
   list-style: none;
   background-color: yellow;
   width: 50%;
+  font-weight: bold;
 }
 
 div.box1{
   background-color: red;
-  width:50%;
 }
 div.box2{
   background-color: blue;
-  width:50%;
   flex-shrink:3;
 }
 
 div.box3{
   background-color: yellow;
-  width:50%;
 }
 
 .box1, .box2, .box3{
   margin:5px;
   border-radius: 30px;
   height:250px;
+  width: 50%;
 }
 
 .content-container{
